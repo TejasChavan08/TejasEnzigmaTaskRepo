@@ -21,7 +21,7 @@ public class SignUp_confirm_message {
 		driver.findElement(By.xpath("//a[text()='Sign up']")).click();
 		
 		//send the opt into the provided email
-		driver.findElement(By.xpath("(//input[@name=\"username\"])[2]")).sendKeys("princetejas9999@gmail.com");
+		driver.findElement(By.xpath("(//input[@name=\"username\"])[2]")).sendKeys("bucks.bond007@gmail.com");
 		
 		//click on the agreement terms
 		driver.findElement(By.xpath("//span[@class='slds-checkbox_faux']")).click();
